@@ -129,6 +129,7 @@ header.sticky .mobilenavsrcoll {
     position: fixed;
     z-index: 9999;
     transform: translateX(-50%);
+    width: 100%;
 }
 header.sticky .nav{
     border: none;
@@ -151,8 +152,16 @@ header.sticky .scrollbar-width{
     z-index: 999;
     display: block;
 } */
+/* .mobile-nav-left {
+    width: 110px;
+    margin-left: 10px;
+    height: 45px;
+}
 
-
+.mobile-nav-left img {
+    width: 100%;
+    height: 100%;
+} */
 
 .logo {
     display: flex;
@@ -213,6 +222,9 @@ header.sticky .scrollbar-width{
     margin-left: 10px
 }
 
+.mobile-nav-right {
+    margin-right: 10px;
+}
 
 
 /* =========== DROP DOWN MENU =============== */
@@ -583,6 +595,7 @@ header.sticky .scrollbar-width{
     color: white;
     font-weight: 400;
     display: none;
+    margin-left: 20px;
 }
 .hambarger{
     display: none;
