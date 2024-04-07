@@ -12,25 +12,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <!-- <header>
-        <a href="#" class="logo">Logo</a>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Project</a></li>
-        </ul>
-    </header>
-    <section class="banner">
-    </section>
-    <script type="text/javascript">
-        window.addEventListener("scroll", function(){
-        var header = document.querySelector("header");
-        header.classList.toggle("sticky", window.scrollY > 0)
-        });
-    </script> -->
+    
 
     <header>
         <div class="header-top">
@@ -42,7 +24,8 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <!-- <div class="scrollbar-width"></div> -->
+        <div class="container mobilenavsrcoll">
             <div class="nav sidebar">
                 <div class="row">
                     <div class="cross-icon"><button onclick=hideSidebar()><i class="fa-solid fa-xmark"></i></button></div>
@@ -68,7 +51,7 @@
                 </div>
             </div>
             <div class="nav">
-                <div class="mobile-nav-wrapper">
+                <div class="mobile-nav-wrapper scrolling">
                     <div class="mobile-nav-left">
                         <!-- <img src="./images/logo.png" alt=""> -->
                         <span>Menu</span>
@@ -117,6 +100,13 @@
             </div>
         </div>
     </header>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
     
 
 
@@ -269,7 +259,7 @@
                         <img src="./images/star.svg" alt="">
                     </div>
                     <p><i>
-                        “Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”</p>
+                        “Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”</p>
                         </i>
                 </div>
                 <div class="reviwe-card">
@@ -285,7 +275,7 @@
                         <img src="./images/star.svg" alt="">
                     </div>
                     <p><i>
-                        “Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”</p>
+                        “Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”</p>
                         </i>
                 </div>
                 <div class="reviwe-card">
@@ -301,7 +291,7 @@
                         <img src="./images/star.svg" alt="">
                     </div>
                     <p><i>
-                        “Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”</p>
+                        “Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.”</p>
                         </i>
                 </div>
                 <div class="reviwe-card">

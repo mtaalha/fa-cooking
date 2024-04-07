@@ -109,6 +109,7 @@ h6,.h6 {
 
 
 
+
 header {
     left: 0;
     padding-top: 20px;
@@ -120,6 +121,38 @@ header {
     background: url(../images/hero-bg.jpg);
     background-size: cover;
 }
+
+header.sticky .mobilenavsrcoll {
+    top: 0;
+    left: 50%;
+    background: rgba(34,34,34,0.9);
+    position: fixed;
+    z-index: 9999;
+    transform: translateX(-50%);
+}
+header.sticky .nav{
+    border: none;
+    margin: 0;
+}
+
+
+
+/* .scrollbar-width{
+    width: 100%;
+    height: 63px;
+    transition: all 0.5s ease;
+    background: rgba(34,34,34,0.9);
+    display: none;
+}
+header.sticky .scrollbar-width{
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 999;
+    display: block;
+} */
+
+
 
 .logo {
     display: flex;
@@ -139,6 +172,8 @@ header {
     text-align: center;
     justify-content: center;
     margin: 25px 0px;
+    transition: all 0.5s ease;
+    z-index: 999;
 }
 .nav-menu li {
     position: relative;
@@ -784,7 +819,7 @@ header.sticky .navs{
 
 /* ===================== our service =========== */
 section.our-service{
-    background: #f9f9ff;
+    background: #f6f6ff;
     padding: 7rem 0;
 }
 .section-heading{
@@ -950,10 +985,10 @@ section.review .reviwe-card-rapper .reviwe-card{
     flex-direction: column;
 }
 section.review .reviwe-card-rapper .reviwe-card .user-img{
-    width: 90px;
-    height: 89px;
+    width: 80px;
+    height: 75px;
     margin: auto;
-    border-radius: 50%;
+    border-radius: 100%;
     margin-bottom: 1.3rem;
     overflow: hidden;
 }
@@ -1173,8 +1208,8 @@ footer.foot-last .foot-bottom ul li:hover{
     .sidebar{
         width: 100%;
         justify-content: end;
-        padding-right: 30px;
-        padding-top: 2rem;
+        padding-right: 25px;
+        padding-top: 10px;
     }
     .nav-menu li i:last-child {
         margin-left: 250px;
@@ -1269,6 +1304,10 @@ footer.foot-last .foot-bottom ul li:hover{
     }
     section.review{
         padding: 5rem 0;
+        background: url(../images/ssmmre.jpg) no-repeat center/cover;
+    }
+    .review .slick-dots{
+        margin-top: 15px;
     }
     section.review .reviwe-card-rapper .reviwe-card{
         padding: 0;
@@ -1287,7 +1326,7 @@ footer.foot-last .foot-bottom ul li:hover{
         padding: 2rem 5px;
     }
     section.our-service .servise-card-image{
-        height: 0;
+        height: 100%;
     }
     footer{
         padding: 4rem 0;
@@ -1301,5 +1340,8 @@ footer.foot-last .foot-bottom ul li:hover{
     header {
         background: linear-gradient(rgba(0, 0, 0, 0), rgb(0 0 0 / 33%)), url(../images/hero-bg-rotate.jpg);
     }
+
+
 }
+
 
